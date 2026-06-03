@@ -93,3 +93,183 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary-color);
 }
+
+/* Dark Mode */
+body.dark-mode {
+  --primary-color: #1a202c;
+  --secondary-color: #2d3748;
+  --dark-bg: #0f1419;
+  --light-bg: #1a202c;
+  --text-dark: #e2e8f0;
+  --text-light: #cbd5e0;
+  --border-color: #4a5568;
+  --white: #f7fafc;
+}
+
+body.dark-mode {
+  background-color: var(--light-bg);
+  color: var(--text-dark);
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: var(--text-dark);
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+  background: var(--light-bg);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #667eea;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #764ba2;
+}
+
+/* Dark Mode - Cards and Content */
+body.dark-mode .skill-card,
+body.dark-mode .project-card,
+body.dark-mode .info-card,
+body.dark-mode .about-intro,
+body.dark-mode .timeline-content,
+body.dark-mode .edu-card,
+body.dark-mode .contact-form,
+body.dark-mode .modal-content {
+  background: #2d3748 !important;
+  color: var(--text-dark);
+}
+
+/* Dark Mode - Form Elements */
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+  background: #1a202c;
+  color: var(--text-dark);
+  border-color: #4a5568;
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group textarea:focus {
+  border-color: #667eea;
+  background: #1a202c;
+  color: var(--text-dark);
+}
+
+body.dark-mode .form-group label {
+  color: var(--text-dark);
+}
+
+/* Dark Mode - Tags */
+body.dark-mode .tag {
+  background: #4a5568;
+  color: #667eea;
+}
+
+/* Dark Mode - Modal Close Button */
+body.dark-mode .modal-close {
+  background: #4a5568;
+  color: #667eea;
+}
+
+body.dark-mode .modal-close:hover {
+  background: #667eea;
+  color: var(--white);
+}
+
+/* Dark Mode - Buttons */
+body.dark-mode .btn-secondary {
+  background: transparent;
+  color: #667eea;
+  border-color: #667eea;
+}
+
+body.dark-mode .btn-secondary:hover {
+  background: #667eea;
+  color: var(--white);
+}
+
+/* Dark Mode - Success Message */
+body.dark-mode .success-message {
+  background-color: #2d5a3d;
+  color: #9ae6b4;
+}
+
+/* Dark Mode - Hero Section */
+body.dark-mode .hero {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+}
+
+/* Dark Mode - CTA Section */
+body.dark-mode .cta {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+
+/* Dark Mode - Text Elements */
+body.dark-mode .page-intro,
+body.dark-mode .contact-intro,
+body.dark-mode .hero-description {
+  color: #cbd5e0;
+}
+
+/* Dark Mode - Headings in Cards */
+body.dark-mode .skill-card h3,
+body.dark-mode .project-card h3,
+body.dark-mode .info-card h3,
+body.dark-mode .about-intro h2,
+body.dark-mode .experience h2,
+body.dark-mode .education h2,
+body.dark-mode .timeline-content h3,
+body.dark-mode .edu-card h3,
+body.dark-mode .modal-content h2 {
+  color: #667eea;
+}
+
+/* Dark Mode - Secondary Text */
+body.dark-mode .skill-card p,
+body.dark-mode .project-card p,
+body.dark-mode .info-card p,
+body.dark-mode .about-intro p,
+body.dark-mode .timeline-content p,
+body.dark-mode .edu-card p,
+body.dark-mode .year,
+body.dark-mode .company,
+body.dark-mode .school {
+  color: #cbd5e0;
+}
+
+/* Dark Mode - Footer */
+body.dark-mode .footer {
+  background: #0f1419;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .footer-content p {
+  color: #e2e8f0;
+}
+
+body.dark-mode .footer-text {
+  color: #cbd5e0;
+}
+
+/* Dark Mode - Links */
+body.dark-mode a {
+  color: #667eea;
+}
+
+body.dark-mode a:hover {
+  color: #764ba2;
+}
+
+/* Dark Mode - Info Card Links */
+body.dark-mode .info-card a {
+  color: #667eea;
+}
+
+body.dark-mode .info-card a:hover {
+  color: #764ba2;
+}
