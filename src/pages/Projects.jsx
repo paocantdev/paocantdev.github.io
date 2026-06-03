@@ -60,10 +60,7 @@ export default function Projects() {
       photos: [
         "/projects/mini-mart/photo1.jpg",
         "/projects/mini-mart/photo2.jpg",
-        "/projects/mini-mart/photo3.jpg",
-        "/projects/mini-mart/photo4.jpg",
-        "/projects/mini-mart/photo5.jpg",
-        "/projects/mini-mart/photo6.jpg",
+        "/projects/mini-mart/photo3.jpg"
       ],
       live: null,
       image: "/projects/mini-mart/logos.jpg"
