@@ -52,6 +52,22 @@ export default function Projects() {
       live: null,
       image: "/projects/snhs-mis/logos.png"
     },
+    {
+      id: 4,
+      title: "MiniMartRetailSystem",
+      description: "A report generation system for a mini-mart that generates sales reports, inventory reports, and financial summaries to help the business make informed decisions and optimize operations.",
+      tags: ["PHP", "MySQL", "JavaScript", "CSS"],
+      photos: [
+        "/projects/mini-mart/photo1.jpg",
+        "/projects/mini-mart/photo2.jpg",
+        "/projects/mini-mart/photo3.jpg",
+        "/projects/mini-mart/photo4.jpg",
+        "/projects/mini-mart/photo5.jpg",
+        "/projects/mini-mart/photo6.jpg",
+      ],
+      live: null,
+      image: "/projects/mini-mart/logos.jpg"
+    },  
   ]
 
   const openPhotos = (project) => {
